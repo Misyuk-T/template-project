@@ -6,8 +6,8 @@ import { ChakraProvider } from "@chakra-ui/react";
 
 import { theme } from "styles";
 
-function Providers({ children }: { children: ReactNode }) {
-  return <ChakraProvider theme={theme}>{children}</ChakraProvider>;
-}
+const Providers = ({ children }: { children: ReactNode }) => (
+  <ChakraProvider theme={theme}>{children}</ChakraProvider>
+);
 
 export default Providers;

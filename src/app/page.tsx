@@ -2,6 +2,6 @@
 
 import { Box } from "@chakra-ui/react";
 
-export default function Page() {
-  return <Box>Home page</Box>;
-}
+const Page = () => <Box>Home page</Box>;
+
+export default Page;
