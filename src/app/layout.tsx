@@ -1,8 +1,10 @@
 import { ReactNode } from "react";
+
 import { Container, VStack } from "@chakra-ui/react";
+
 import Providers from "./providers";
 
-const RootLayout = ({ children }: { children: ReactNode }) => {
+function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body>
@@ -20,6 +22,6 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
       </body>
     </html>
   );
-};
+}
 
 export default RootLayout;
